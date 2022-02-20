@@ -1,0 +1,63 @@
+@font-face
+{
+    font-family: 'GameBattles';
+    src: url('game_battles/game-battles-2.ttf');
+}
+@font-face
+{
+    font-family: 'GameBoy_GameGirl';
+    src: url('FontsFree-Net/FontsFree-Net-GAMEG___.ttf');
+}
+body
+{
+    font-family: 'GameBoy_GameGirl', Courier New;
+    color: white;
+    background: black;
+}
+h1
+{
+    font-family: 'GameBattles';
+    font-style: italic;
+    font-size: 45px;
+    color: white;
+    text-shadow: 0 0 15px #00d8ff;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: auto;
+}
+#chiffre
+{
+    position: relative;
+    top: -41px;
+    overflow: hidden;
+    margin: 0;
+    margin-left: 100px;
+    font-size: 46px;
+    color: #00d8ff;
+    text-shadow: 0 5px 10px white;
+}
+#lettre
+{
+    font-size: 36px;
+    position: relative;
+    top: -20px;
+    margin-left: 75px;
+    min-height: 50px;
+    color: #00d8ff;
+    text-shadow: 0 0 12px white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 12px #00d8ff;
+}
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    font-family: 'GameBattles';
+    font-size: 17px;
+    text-align: right;
+}
